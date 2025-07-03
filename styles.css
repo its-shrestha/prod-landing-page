@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'SweetieSummer';
+  src: url('Fonts/Sweetie Summer.ttf') format('truetype'); /* or 'opentype' for .otf */
+}
+
+h1 {
+    font-family: 'SweetieSummer';
+}
