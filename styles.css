@@ -1,8 +1,87 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 85%;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+
 @font-face {
   font-family: 'SweetieSummer';
   src: url('Fonts/Sweetie Summer.ttf') format('truetype'); /* or 'opentype' for .otf */
 }
 
+header {
+    background-color: rgb(253, 166, 180);
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0.3rem;
+    z-index: 1000;
+    max-height: 3.7rem;
+}
+
+header > div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-text {
+    justify-content: flex-start;
+}
+
+#nav {
+    justify-content: center;
+}
+
+#cart-details {
+    justify-content: flex-end;
+    font-size: 0.9rem;
+}
+
 h1 {
-    font-family: 'SweetieSummer';
+    font-family: 'SweetieSummer', cursive;
+    color: white;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Fix anchor tag */
+a:hover {
+    text-decoration: underline;
+}
+
+#body {
+    margin-top: 4.5rem;
 }
