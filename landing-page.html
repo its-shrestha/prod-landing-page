@@ -3,12 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">    
     <link href="styles.css" rel="stylesheet">
+
     <title>Sanrio Hello Kitty Rose Perfume | Buy Online On The Kawaii Stop</title>
 </head>
 <body>
     <header>
-        <h1>The Kawaii Shop</h1>
+  <div id="logo-text">
+    <h1>The Kawaii Shop</h1>
+  </div>
+
+  <div id="nav">
+    <ul>
+      <li><a href="#">Overview</a></li>
+      <li><a href="#">Details</a></li>
+      <li><a href="#">Customer Reviews</a></li>
+    </ul>
+  </div>
+
+  <div id="cart-details">
+    <ul>
+      <li>View Your Cart</li>
+      <li>Cart Total: <span id="cart-total">0</span></li>
+      <li><span id="item-nums">0</span> items in cart</li>
+    </ul>
+  </div>
     </header>
+
+
+    <div id="body" class="container">
+        <div class="row" id="product-card">
+            <div class="col-md-6 col-12">
+                <img src="https://i.pinimg.com/736x/3d/85/e2/3d85e2ed4efef5733c7d32e400fe797b.jpg" width="400px">
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="row">
+                    <h2>Sanrio Hello Kitty Rose Perfume</h2>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
 </body>
 </html>
