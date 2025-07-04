@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 85%;
+    font-size: 95%;
 }
 
 body {
@@ -84,4 +84,23 @@ a:hover {
 
 #body {
     margin-top: 4.5rem;
+}
+
+#add {
+    background-color: rgb(253, 166, 180);
+    color: white;
+    border-radius: 2rem;
+    height: 3.5rem;
+    border: pink;
+}
+
+#add:hover {
+        background-color: rgba(253, 166, 180, 0.829);
+}
+
+#product-card div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
