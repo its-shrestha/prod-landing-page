@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background-color: rgb(253, 166, 180);
+    background-color: #fda6b4;
     width: 100%;
     color: white;
     display: flex;
@@ -76,7 +76,6 @@ a {
     color: white;
 }
 
-/* Fix anchor tag */
 a:hover {
     text-decoration: underline;
 }
@@ -107,3 +106,34 @@ a:hover {
 #product-card {
     margin-top: 7rem;
 }
+
+#reviews, #more {
+    margin-top: 5.5rem;
+}
+
+#read-more:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.review-box {
+    padding: 1.5rem 2rem;
+    border: #fda6b4 2px solid;
+    margin: 0.5rem;
+    border-radius: 2rem;
+}
+
+.product-listing {
+    padding: 1.5rem 2rem;
+    border: #fda6b4 2px solid;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    
+}
+
