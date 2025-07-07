@@ -92,7 +92,7 @@ a:hover {
     border: pink;
 }
 
-#add:hover {
+#add:hover, .add:hover {
         background-color: rgba(253, 166, 180, 0.829);
 }
 
@@ -137,3 +137,35 @@ a:hover {
     
 }
 
+button {
+    width: 100%;
+    padding: 0.25rem;
+    margin: 0.1rem;
+    border-radius: 2rem;
+    height: 3.5rem;
+    border: #fda6b4 3px solid;
+
+}
+
+.add {
+    background-color: #fda6b4;
+    color: white;
+}
+
+button:hover {
+    background-color: #fda6b4c5;
+    
+}
+
+footer {
+    margin-top: 5rem;
+    background-color: #fda6b4;
+    padding: 0.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+footer ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
