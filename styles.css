@@ -169,3 +169,33 @@ footer ul li:hover {
     cursor: pointer;
     text-decoration: underline;
 }
+
+input {
+    border: 2px solid #fda6b4;
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+#view-cart {
+    cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+.cart-container {
+  position: relative; 
+  display: inline-block;
+}
+
+#cart-popup {
+  position: absolute;
+  top: 100%; 
+  right: 1rem;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  z-index: 100;
+}
