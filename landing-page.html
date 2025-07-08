@@ -28,13 +28,16 @@
 
   <div id="cart-details">
     <ul>
-      <li>View Your Cart</li>
+      <li><span id="view-cart">View Your Cart</span>
+        <div id="cart-popup" class="hidden">
+          <p style="color: #fda6b4;">Your cart is empty.</p>
+        </div>
+      </li>
       <li>Cart Total: <span id="cart-total">0</span></li>
       <li><span id="item-nums">0</span> items in cart</li>
     </ul>
   </div>
     </header>
-
 
     <div id="body" class="container justify-content-center align-items-center">
         <div class="row justify-content-center align-items-center" id="product-card">
@@ -70,6 +73,7 @@ Base Notes: Vanilla cream, white musk
 </p>                  <p>🎀 Cruelty-free · Alcohol-free · Collector-friendly</p>
                 </div>
                 <div class="row" style="display: flex; width: 100%;">
+                  <input type="number" min="1" placeholder="enter quantity" id="quantity">
                   <button id="add"><i class="fa fa-shopping-cart" style="font-size: 17px; color: white;"></i>  Add to Cart</button>
                 </div>
             </div>
@@ -261,5 +265,8 @@ i am not joking. this perfume is dark magic in a kitty bottle.
         <li><a>Terms & Conditions</a></li>
       </ul>
     </footer>
+
+    <script src="script.js">
+    </script>
 </body>
 </html>
