@@ -84,7 +84,7 @@ a:hover {
     margin-top: 4.5rem;
 }
 
-#add {
+#add, #proceed {
     background-color: rgb(253, 166, 180);
     color: white;
     border-radius: 2rem;
@@ -92,7 +92,7 @@ a:hover {
     border: pink;
 }
 
-#add:hover, .add:hover {
+#add:hover, .add:hover, #proceed:hover {
         background-color: rgba(253, 166, 180, 0.829);
 }
 
@@ -186,7 +186,7 @@ input {
 }
 .cart-container {
   position: relative; 
-  display: inline-block;
+  
 }
 
 #cart-popup {
